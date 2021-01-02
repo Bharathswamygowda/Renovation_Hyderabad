@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+html {
+height: 100%;
+}
+
+body {
+background: url("../images/error.jpg") no-repeat center center fixed;
+background-size: cover;
+font-family: 'Raleway', sans-serif;
+background-color: rgb(34, 33, 33);
+height: 100%;
+}
+
+.text-wrapper {
+height: 100%;
+display: -webkit-box;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+}
+
+.title {
+font-size: 9em;
+font-weight: 700;
+color: #26348b;
+text-shadow: 0.1em 0.1em 0.8em #343434;
+}
+
+.subtitle {
+font-size: 40px;
+font-weight: 700;
+color: #fff;
+}
+
+.buttons {
+margin: 30px;
+}
+.buttons a.button {
+font-weight: 700;
+border: 2px solid #26348b;
+text-decoration: none;
+padding: 15px;
+text-transform: uppercase;
+color: #fff;
+border-radius: 26px;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+.buttons a.button:hover {
+background-color: #26348b;
+color: white;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+border: none;
+}
